@@ -1,0 +1,101 @@
+footer {
+  max-width: 1200px;
+  width: 100%;
+  height: 350px;
+  font-family: "Roboto";
+  margin: 120px auto;
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    margin: 50px auto;
+  }
+}
+
+footer .contacts {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 375px) {
+  footer .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+footer .contacts .slogan {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+footer .contacts .slogan img {
+  margin-right: 40px;
+}
+
+footer .contacts .slogan p {
+  margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+  footer .contacts .slogan {
+    margin-bottom: 40px;
+  }
+}
+
+footer .contacts .upper {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  footer .contacts .addres,
+  footer .contacts .contact,
+  footer .contacts .follow {
+    text-align: center;
+  }
+}
+
+footer .contacts .addres p,
+footer .contacts .contact p,
+footer .contacts .follow p {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 0.5;
+}
+
+footer .contacts .follow p a:hover {
+  color: #fce38a;
+}
+
+footer .contacts .follow p a:active {
+  color: indigo;
+}
+
+footer .contacts .follow p a {
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=footer.css.map */

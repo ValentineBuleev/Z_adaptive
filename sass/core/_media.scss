@@ -1,0 +1,47 @@
+
+@media screen and (max-width: 768px) {
+   
+    .gallery {
+        overflow: hidden;
+        width: 100%;
+       .redcostume {
+        max-width: 50%;
+        background-size: contain;
+        background-position: center;
+        
+       }
+      
+
+
+       .costume {
+           max-width: 50%;
+           background-size: contain;
+           background-position: center;
+       }
+       .crosses {
+        max-width: 35%;
+        background-size: contain;
+        background-position: center;
+       }
+
+       .greensweater{
+        max-width: 35%;
+        background-size: contain;
+        background-position: center;
+       }
+       .mouth {
+        max-width: 60%;
+        background-size: contain;
+        background-position: center;
+       }
+       .clock {
+        max-width: 40%;
+        background-size: contain;
+        background-position: center;
+
+       }
+    }
+ 
+}
+
+

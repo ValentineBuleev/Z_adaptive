@@ -1,0 +1,303 @@
+.gallery {
+  font-family: "Roboto";
+  margin: 140px auto;
+  max-width: 1200px;
+  width: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery .galleryphoto {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .galleryphoto {
+    width: 90%;
+  }
+}
+
+.gallery .line1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery .line1 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.gallery .line1 .redcostume {
+  width: 650px;
+  height: 300px;
+  background-image: url(../pictures/gallery/redcostume.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 15px white;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .line1 .redcostume {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line1 .redcostume {
+    width: 100%;
+  }
+}
+
+.gallery .line1 .costume {
+  width: 350px;
+  height: 630px;
+  background-image: url(../pictures/gallery/costume.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 15px white;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .line1 .costume {
+    width: 50%;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line1 .costume {
+    width: 100%;
+  }
+}
+
+.gallery .line2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -330px;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery .line2 {
+    width: 58%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .line2 {
+    width: 90%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.gallery .line2 .crosses {
+  width: 310px;
+  height: 300px;
+  background-image: url(../pictures/gallery/crosses.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 15px white;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .line2 .crosses {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line2 .crosses {
+    width: 100%;
+  }
+}
+
+.gallery .line2 .greensweater {
+  width: 310px;
+  height: 300px;
+  background-image: url(../pictures/gallery/greensweater.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 15px white;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .line2 .greensweater {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line2 .greensweater {
+    width: 100%;
+  }
+}
+
+.gallery .line3 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery .line3 {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.gallery .line3 .mouth {
+  width: 310px;
+  height: 300px;
+  background-image: url(../pictures/gallery/mouth.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: solid 15px white;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .line3 .mouth {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line3 .mouth {
+    width: 100%;
+  }
+}
+
+.gallery .line3 .clock {
+  width: 690px;
+  height: 300px;
+  background-image: url(../pictures/gallery/clock.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: solid 15px white;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery .line3 .clock {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery .line3 .clock {
+    width: 100%;
+  }
+}
+
+.gallery h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery h2 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .gallery h2 {
+    width: 70%;
+  }
+}
+
+.clients {
+  margin-top: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 500px;
+  background-image: url(/pictures/clients/wrapper_clients.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 375px) {
+  .clients {
+    margin-top: -100px;
+  }
+}
+
+.clients .text {
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+}
+
+@media screen and (max-width: 375px) {
+  .clients .text h2 {
+    font-size: 20px;
+  }
+  .clients .text p {
+    font-size: 14px;
+  }
+}
+
+.clients .logos {
+  max-width: 85%;
+  height: 100px;
+  margin: 100px auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .clients .logos img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=gallery.css.map */

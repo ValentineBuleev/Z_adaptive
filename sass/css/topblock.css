@@ -1,0 +1,86 @@
+.topblock {
+  max-width: 1200px;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #cc2b23;
+  background-image: url(/pictures/Z.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  font-family: "Roboto";
+}
+
+.topblock nav {
+  height: 70px;
+  width: 90%;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.topblock nav li:hover {
+  color: #fce38a;
+}
+
+.topblock nav li:active {
+  color: indigo;
+}
+
+.topblock nav ul {
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  .topblock nav ul {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .topblock nav {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.topblock h1 {
+  margin-top: 15%;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .topblock h1 {
+    font-size: 40px;
+    margin-top: 25%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .topblock h1 {
+    margin-top: 50%;
+  }
+}
+/*# sourceMappingURL=topblock.css.map */

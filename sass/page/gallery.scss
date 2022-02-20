@@ -1,0 +1,209 @@
+.gallery {
+    font-family: "Roboto";
+    margin: 140px auto;
+    max-width: 1200px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    .galleryphoto {
+        @media screen and (max-width: 1024px) {
+            width:90%;
+           
+         }
+         @media screen and (max-width:768px) {
+            width:90%;
+         }
+    }
+   
+    .line1 {
+        display: flex;
+        width: 100%;
+        @media screen and (max-width: 1024px) {
+            width:90%;
+           
+         }
+         @media screen and (max-width: 375px) {
+            flex-direction: column; 
+        }
+        .redcostume {
+            width: 650px;
+            height: 300px;
+            background-image: url(../pictures/gallery/redcostume.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: solid 15px white;
+            background-position: center;
+            @media screen and (max-width:768px) {
+                width:50%;
+               
+             }
+             @media screen and (max-width: 375px) {
+                width:100%;
+            }
+        }
+        .costume {
+            width: 350px;
+            height: 630px;
+            background-image: url(../pictures/gallery/costume.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: solid 15px white;
+            background-position:center ;
+            @media screen and (max-width:768px) {
+                width:50%;
+             height: 300px;
+           
+                
+             }
+             @media screen and (max-width: 375px) {
+                width:100%;
+            }
+        }
+    }
+    .line2 {
+        width: 100%;
+        display: flex;
+        margin-top: -330px;
+        @media screen and (max-width: 1024px) {
+            width:58%;
+         }
+         @media screen and (max-width:768px) {
+            width:90%;
+            margin-top:0;
+         }
+         @media screen and (max-width: 375px) {
+            flex-direction: column; 
+        }
+        .crosses {
+            width: 310px;
+            height: 300px;
+            background-image: url(../pictures/gallery/crosses.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: solid 15px white;
+            background-position: center;
+            @media screen and (max-width:768px) {
+                width:50%;
+             }
+             @media screen and (max-width: 375px) {
+                width:100%;
+            }
+        }
+        .greensweater {
+            width: 310px;
+            height: 300px;
+            background-image: url(../pictures/gallery/greensweater.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: solid 15px white;
+            background-position: center;
+            @media screen and (max-width:768px) {
+                width:50%;
+             }
+             @media screen and (max-width: 375px) {
+                width:100%;
+            }
+        }
+
+    }
+
+    .line3 {
+        width: 100%;
+        display: flex;
+        @media screen and (max-width: 1024px) {
+            width:90%;
+         }
+         @media screen and (max-width: 375px) {
+            flex-direction: column; 
+        }
+
+        .mouth {
+            width: 310px;
+            height: 300px;
+            background-image: url(../pictures/gallery/mouth.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border: solid 15px white;
+            @media screen and (max-width:768px) {
+                width:50%;
+             }
+             @media screen and (max-width: 375px) {
+                width:100%;
+            }
+        }
+        .clock {
+            width: 690px;
+            height: 300px;
+            background-image: url(../pictures/gallery/clock.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border: solid 15px white;
+            @media screen and (max-width:768px) {
+                width:50%;
+                
+             }
+             @media screen and (max-width: 375px) {
+                width:100%;
+            }
+        }
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 120px;
+        @media screen and (max-width: 768px) {
+            font-size: 16px;
+        }
+        @media screen and (max-width: 375px) {
+            width: 70%; 
+        }
+    }
+}
+.clients {
+    margin-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    width: 100%;
+    height: 500px;
+    background-image: url(pictures/clients/wrapper_clients.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 375px) {
+        margin-top:-100px;
+    }
+    .text {
+        text-align: center;
+        color: white;
+        padding-top: 120px;
+        @media screen and (max-width: 375px) {
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+    .logos {
+      
+        max-width: 85%;
+        height: 100px;
+        margin: 100px auto;
+       img {
+        @media screen and (max-width: 1024px) {
+            width: 100%;
+            
+        }
+       }
+    }
+}
